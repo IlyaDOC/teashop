@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slick-prev {
+    left: 25px;
+    z-index: 2;
+}
+
+.slick-next {
+    right: 25px;
+    z-index: 2;
+}
+
+.main-faq {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.main-title-collection {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+
+.ui-accordion-header::after {
+    content: "❯";
+    float: right;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+
+.ui-state-active::after {
+    transform: rotate(270deg);
+}
+
+h3 {
+    height: 68px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.order-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.footer {
+    background-color: #F8F9FA;
+}
+
+.footer_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.hvr-bounce-to-right:before {
+    background-color: #0d6efd;
+}
+
+.main-products .btn {
+    color: #0d6efd;
+}
+
+.main-products .btn:hover {
+    color: #FFFFFF;
+}
+
+.submit-button {
+    color: #0d6efd;
+}
+.submit-button:hover {
+    color: #FFFFFF;
+}
